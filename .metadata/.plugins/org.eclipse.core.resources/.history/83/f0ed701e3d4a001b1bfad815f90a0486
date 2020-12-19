@@ -1,0 +1,254 @@
+package com.kh.array;
+
+import java.util.Scanner;
+
+public class A_Array {
+	
+	/*
+	 * * 변수 : "자료형의 값 하나만"을 담을 수 있는 개념 
+	 * 		   ex) int a = 10;
+	 * 				   a = 20;
+	 * 
+	 * * 배열 : "같은 자료형의 값 여러개"를 담을 수 있는 개념
+	 * 		      각 방마다 인덱스가 지정됨 (인덱스 0부터 시작!)
+	 * 		   ex) int[] arr = new int[5];
+	 * 				arr[0] = 10;
+	 * 				arr[1] = 20;
+	 * 					.... 
+	 * 
+	 */
+	public void method1() {
+		
+		// * 배열을 왜써야될까?
+		
+		/*
+		// 변수만을 가지고 프로그래밍을 하게된다면..
+		// 0, 1, 2, 3, 4 데이터를 기록하고시품..
+		int num1 = 0;
+		int num2 = 1;
+		int num3 = 2;
+		int num4 = 3;
+		int num5 = 4;
+		
+		// 출력할때는? => 일일히 출력해야됨 (반복문 적용안됨..)
+		System.out.println(num1);
+		System.out.println(num2);
+		System.out.println(num3);
+		System.out.println(num4);
+		System.out.println(num5);
+		
+		// 총 합계를 구할때?
+		int sum = num1 + num2 + num3 + num4 + num5;
+		System.out.println("총합계 : " + sum);
+		*/
+		
+		
+		// 배열을 가지고 프로그래밍 하기
+		/*
+		 * 1. 배열 선언 (여러개의 값들을 보관할 배열을 만들꺼야!!)
+		 *    자료형 배열명[];
+		 *    자료형[] 배열명;
+		 */
+		int a; // 변수 선언
+		
+		//int arr[];
+		//int[] arr;
+		
+		/*
+		 * 2. 배열 할당 (이 배열에 몇 개의 값들을 보관할건지 크기지정하는 과정 == 그 갯수만큼 방이 만들어짐)
+		 *    배열명 = new 자료형[배열크기];
+		 */
+		//arr = new int[5];
+		
+		
+		// * 배열 선언과 동시에 할당 
+		int[] arr = new int[5];
+		
+		/*
+		 * 3. 각 인덱스에 값 대입 
+		 *    배열명[인덱스] = 값;
+		 */
+		/*
+		arr[0] = 0;
+		arr[1] = 1;
+		arr[2] = 2;
+		arr[3] = 3;
+		arr[4] = 4;
+		*/
+		// 배열 가장 큰 장점 : 반복문을 활용할 수 있음!!
+		//for(int i=0; i<=4; i++) { // 0에서부터 4(마지막인덱스==배열의크기-1)까지 매번 1씩 증가하는 동안 반복 수행
+		//for(int i=0; i<=arr.length-1; i++) {
+		for(int i=0; i<arr.length; i++) {
+			arr[i] = i;
+		}
+		
+		/*
+		System.out.println(arr[0]);
+		System.out.println(arr[1]);
+		System.out.println(arr[2]);
+		System.out.println(arr[3]);
+		System.out.println(arr[4]);
+		*/
+		// 출력 또한 반복문 활용
+		for(int i=0; i<arr.length; i++) {
+			System.out.println(arr[i]);
+		}
+		
+		System.out.println(arr);
+		
+	}
+	
+	
+	public void method2() {
+		
+		int i = 10;
+		
+		int[] iArr = new int[5];
+		
+		System.out.println("i : " + i);
+		System.out.println("iArr : " + iArr);
+		System.out.println("iArr의 해쉬코드값 : " + iArr.hashCode());
+		
+		double[] dArr = new double[3];
+		
+		System.out.println("dArr : " + dArr);
+		System.out.println("dArr의 해쉬코드값 : " + dArr.hashCode());
+		
+		/*
+		 * 실제 값을 바로 담을 수 있는 변수를 일반 변수라고 얘기하고
+		 * 주소 값을 담고있는 변수는 "참조변수(레퍼런스변수)"라고 표현함
+		 * 
+		 * 기본자료형(boolean, char, byte, short, int, long, float, double)으로 선언한 변수
+		 * => 일반 변수 => 실제 값을 바로 담을 수 있는 변수
+		 * 
+		 * 그 외 자료형(int[], double[], char[], short[], ...., String, Scanner, 클래스..)으로 선언된 변수
+		 * => 참조 변수(레퍼런스 변수) => 주소값을 담고 있는 변수
+		 * 
+		 */
+		
+	}
+	
+	
+	public void method3() {
+		
+		int[] iArr = new int[3]; // [0], [1], [2]
+		double[] dArr = new double[5]; // [0], [1], [2], [3], [4] 
+		
+		System.out.println("iArr배열의 크기 : " + iArr.length);
+		System.out.println("dArr배열의 크기 : " + dArr.length);
+		
+		for(int i=0; i<iArr.length; i++) {
+			System.out.println(iArr[i]);
+		}
+		
+		for(int i=0; i<dArr.length; i++) {
+			System.out.println(dArr[i]);
+		}
+		
+		/*
+		 * 각각의 인덱스에 값을 대입하지 않았음에도 불구하고 뭔가 담겨있음!
+		 * 왜? Heap은 절대 빈 공간이 존재할 수 없음!!
+		 * => JVM이 기본값으로 초기화를 진행해줌
+		 */
+		
+		
+	}
+	
+	public void method4() {
+		
+		int[] iArr = new int[5];
+		
+		/*
+		iArr[0] = 1;
+		iArr[1] = 2;
+		iArr[2] = 3;
+		iArr[3] = 4;
+		iArr[4] = 5;
+		//iArr[10] = 10;
+		*/
+		
+		// 값 대입용
+		for(int i=0; i<iArr.length; i++) {
+			iArr[i] = i + 1;
+		}
+		
+		// 총합계 구할겸 출력
+		int sum = 0;
+		
+		/*
+		sum += iArr[0];
+		sum += iArr[1];
+		...
+		sum += iArr[4];
+		*/
+		for(int i=0; i<iArr.length; i++) {
+			sum += iArr[i];
+			System.out.print(iArr[i] + " ");
+		}
+		
+		System.out.println("\n총합계 : " + sum);
+		
+		System.out.println(iArr);
+		System.out.println(iArr.hashCode()); // 해쉬코드 == 주소값의 10진수형태
+		
+		
+	}
+	
+	
+	public void method5() {
+		
+		int[] iArr = new int[5];
+		
+		int value = 2;
+		for(int i=0; i<iArr.length; i++) {
+			iArr[i] = value;
+			value += 2;
+		}
+		
+		
+		for(int i=0; i<iArr.length; i++) {
+			System.out.println(iArr[i]);
+		}
+		
+		System.out.println("iArr의 해쉬코드값 : " + iArr.hashCode());
+		
+		
+		//iArr[5] = 12;
+		//iArr[6] = 14;
+		
+		// * 배열의 가장 큰 단점
+		// - 한번 지정한 배열의 크기는 변경 불가
+		//	 => 배열의 크기를 변경하고자 한다면 어쩔수없이 다시 만들어줘야됨..
+		iArr = new int[7];
+		
+		System.out.println("=== 변경 후 iArr ===");
+		System.out.println("iArr의 해쉬코드값 : " + iArr.hashCode());
+		
+		System.out.println("0번인덱스값 : " + iArr[0]);
+		
+		/*
+		 * 기존에 참조하고 있던 연결이 끊기고 새로운 곳 참조
+		 * 
+		 * 연결이 끊어진 기존 배열은 Heap영역에 둥둥떠다님
+		 * => 일정 시간이 지나면 "가비지 컬렉터" 지워줌
+		 *    (자동 메모리 관리)
+		 */
+		
+		// 지금 연결되어있는 고리를 끊고자 한다면?
+		iArr = null; // null (존재하지 않아)
+		
+		System.out.println(iArr);
+		//iArr[0] = 1;
+		System.out.println(iArr.hashCode());
+		
+		/*
+		String str = null;
+		int i = 0;
+		double d = 0.0;
+		*/
+		
+	}
+	
+	
+
+}
