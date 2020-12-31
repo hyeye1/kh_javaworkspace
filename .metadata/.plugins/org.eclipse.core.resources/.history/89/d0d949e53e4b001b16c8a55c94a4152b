@@ -100,7 +100,7 @@ public class B_ArrayCopy {
 		
 		int[] copy = new int[10]; //넉넉하게 크게 생성
 		
-		//System.arraycopy(원본배열명, 복사를 시작할 인덱스, 복사본 배열명, 복사본배열에 복사될 시작인덱스. 복사할갯수);
+		//System.arraycopy(원본배열명, 복사를 시작할 인덱스, 복사본 배열명, 복사본배열에 복사될 시작인덱스. 복사할갯수);;
 		System.arraycopy(origin, 0, copy, 0, origin.length);
 		
 		System.out.println("복사본 배열 출력");
