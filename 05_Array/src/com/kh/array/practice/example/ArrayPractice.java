@@ -280,7 +280,7 @@ public class ArrayPractice {
 		
 		for(int i = 0; i<copy.length; i++) {
 			if(i<8) {
-				copy[i] = reg[i]; //8전까지는 copyi 랑 reg i 랑 같아요
+				copy[i] = reg[i]; //8전까지는 copy[i] 랑 reg[i] 랑 같아요
 			} else {
 				copy[i] = '*'; //그 이후는 별입니다.
 			}
