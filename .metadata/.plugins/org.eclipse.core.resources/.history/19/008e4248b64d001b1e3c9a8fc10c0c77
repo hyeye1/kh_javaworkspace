@@ -1,5 +1,6 @@
 package com.kh.array.practice.example;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayPractice {
@@ -62,11 +63,12 @@ public class ArrayPractice {
 		System.out.print("문자열 : ");
 		String str = sc.nextLine();
 		
-		char[] text = new char[str.length()];
 		
 		System.out.print("문자 : ");
 		char cha = sc.nextLine().charAt(0);
 		
+		char[] text = new char[str.length()];
+
 		int count = 0;
 		for(int i = 0; i<str.length(); i++) {
 			text[i] = str.charAt(i);
@@ -109,7 +111,9 @@ public class ArrayPractice {
 			
 			System.out.printf("배열 %d 번째 인덱스에 넣을 값 : ", i);
 			j = sc.nextInt();			
-			arr[i]=j;						
+			arr[i]=j;					
+			//위의 j변수를 없애고 arr[i]=sc.nextInt(); 가능.
+			//어차피 j가 입력값이고, 입력값은 arr속 i번째 값이 될테니가.
 		}
 		int sum = 0;
 		
@@ -120,6 +124,7 @@ public class ArrayPractice {
 		for(i=0; i<arr.length; i++) {
 		sum += arr[i] ;
 		}
+		//sum+=arr[i]는 위 for문으로 들어갈 수 있다. 더해지는 수이기때문에
 		
 		System.out.print("\n총 합 : "+sum);
 
@@ -148,7 +153,33 @@ public class ArrayPractice {
 					
 					arr[i] = i;
 					System.out.print(arr[i]+ " ");
+					
 				}
+				//강사님이 하신 코드
+				/*
+				 * int count = 1;  값을 넣기위한 변수를 만들고, 
+				 * 
+				 * for(int i =0; i<arr.length; i++) {
+				 * 		arr[i] = count;
+				 * 
+				 * 	if(i<arr.length/2) { 배열의 중간까지는 
+				 * 		count++; 카운트 1 씩 증가
+				 * 	} else { 
+				 *  	count--; 아니면 1씩 감소
+				 *  }
+				 * }
+				 * 
+				 * 1씩 오름,내림차순을 만들어준후에 출력
+				 * 
+				 * for(int=0; i<arr.length; i++) {
+				 * 
+				 *		if(i<arr.length-1){
+				 *			System.out.print(arr[i] + ", ");
+				 *		} else {
+				 *			System.out.println(arr[i]);
+				 *		}
+				 * 
+				 */
 				break;
 			}else {
 				System.out.println("다시 입력하세요.");
@@ -165,24 +196,84 @@ public class ArrayPractice {
 		
 		String[] chicken = {"후라이드", "양념", "간장", "매운 양념"};
 		
-		int i = 0;
-		for(i =0; i<chicken.length; i++) { 
+		boolean isMenu = true;
 		
-			if(chicken[i].equals(str)) {
-				System.out.println(str+"치킨 배달 가능");		
+		int i = 0;
+		
+		for(i =0; i<chicken.length; i++) { 
+			
+			isMenu = (chicken[i].equals(str));
+			
+			if(isMenu) {
+				System.out.println(str+"치킨 배달 가능");
 				break;
 			}
 		
-			
 		}
-		for(i=0; i<chicken.length; i++) {
-		if(!chicken[i].equals(str))
-		System.out.println(str+"치킨은 없는 메뉴입니다.");
-
-	}	
+		if(isMenu==false) {
+			System.out.println(str+ "치킨은 없는 메뉴입니다.");
+		}
+		
+		//강사님코드
+		/*
+		 * boolean isMenu = false;
+		 * 
+		 * for(int i=0; i<chicken.length; i++) {
+		 * 
+		 *		if(chicken[i].equals(str)){
+		 *			isMenu = true;
+		 *			break;
+		 *		}
+		 *	}
+		 *
+		 * if(isMenu) { isMenu가 트루일 경우 
+		 * 		 System.out.println( str + 
+		 */
+		
 	
 	
 	}
+	
+	public void practice10() {
+		int[] arr = new int [10];
+		
+		for(int i=0; i<10; i++) {
+			arr[i] = (int)(Math.random()*10+1);
+			
+			System.out.print(arr[i]+" ");
+		}
+		
+	}
+	
+	public void practice11() {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("주민등록번호(-포함) : ");
+		String num = sc.nextLine();
+		char[] reg = new char[num.length()];
+		char[] copy = reg.clone();
+		
+		for(int i=0; i<8; i++) {
+			reg[i] = num.charAt(i);
+			
+			System.out.print(reg[i]);
+		}
+		for(int i=8; i<num.length(); i++) {
+			
+			copy[i]= '*';
+			
+			System.out.print(copy[i]);
+		}
+		
+		
+
+		
+		
+		
+		
+	}
+	
+	
 	
 }		
 

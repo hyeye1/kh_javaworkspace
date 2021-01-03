@@ -1,7 +1,6 @@
 package com.kh.array.practice.run;
 
 import com.kh.array.practice.example.ArrayPractice;
-import com.kh.array.practice.example.ArrayPracticeAnswer;
 
 public class Run {
 	
@@ -20,10 +19,6 @@ public class Run {
 		//a.practice9(); //boolean어렵
 		//a.practice10();
 		a.practice11(); //제대로 된건지 모를..
-		
-		ArrayPracticeAnswer b = new ArrayPracticeAnswer();
-		//b.practice2();
-		
 		
 	}
 

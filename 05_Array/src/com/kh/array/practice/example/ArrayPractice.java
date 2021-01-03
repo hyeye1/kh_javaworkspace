@@ -63,11 +63,12 @@ public class ArrayPractice {
 		System.out.print("문자열 : ");
 		String str = sc.nextLine();
 		
-		char[] text = new char[str.length()];
 		
 		System.out.print("문자 : ");
 		char cha = sc.nextLine().charAt(0);
 		
+		char[] text = new char[str.length()];
+
 		int count = 0;
 		for(int i = 0; i<str.length(); i++) {
 			text[i] = str.charAt(i);
@@ -110,7 +111,9 @@ public class ArrayPractice {
 			
 			System.out.printf("배열 %d 번째 인덱스에 넣을 값 : ", i);
 			j = sc.nextInt();			
-			arr[i]=j;						
+			arr[i]=j;					
+			//위의 j변수를 없애고 arr[i]=sc.nextInt(); 가능.
+			//어차피 j가 입력값이고, 입력값은 arr속 i번째 값이 될테니가.
 		}
 		int sum = 0;
 		
@@ -121,6 +124,7 @@ public class ArrayPractice {
 		for(i=0; i<arr.length; i++) {
 		sum += arr[i] ;
 		}
+		//sum+=arr[i]는 위 for문으로 들어갈 수 있다. 더해지는 수이기때문에
 		
 		System.out.print("\n총 합 : "+sum);
 
@@ -149,7 +153,33 @@ public class ArrayPractice {
 					
 					arr[i] = i;
 					System.out.print(arr[i]+ " ");
+					
 				}
+				//강사님이 하신 코드
+				/*
+				 * int count = 1;  값을 넣기위한 변수를 만들고, 
+				 * 
+				 * for(int i =0; i<arr.length; i++) {
+				 * 		arr[i] = count;
+				 * 
+				 * 	if(i<arr.length/2) { 배열의 중간까지는 
+				 * 		count++; 카운트 1 씩 증가
+				 * 	} else { 
+				 *  	count--; 아니면 1씩 감소
+				 *  }
+				 * }
+				 * 
+				 * 1씩 오름,내림차순을 만들어준후에 출력
+				 * 
+				 * for(int=0; i<arr.length; i++) {
+				 * 
+				 *		if(i<arr.length-1){
+				 *			System.out.print(arr[i] + ", ");
+				 *		} else {
+				 *			System.out.println(arr[i]);
+				 *		}
+				 * 
+				 */
 				break;
 			}else {
 				System.out.println("다시 입력하세요.");
@@ -184,6 +214,25 @@ public class ArrayPractice {
 			System.out.println(str+ "치킨은 없는 메뉴입니다.");
 		}
 		
+		//강사님코드
+		/*
+		 * boolean isMenu = false;
+		 * 
+		 * for(int i=0; i<chicken.length; i++) {
+		 * 
+		 *		if(chicken[i].equals(str)){
+		 *			isMenu = true;
+		 *			break;
+		 *		}
+		 *	}
+		 *
+		 * if(isMenu) { isMenu가 트루일 경우 
+		 * 		 System.out.println( str + "치킨배달가능");
+		 * }else { 
+		 * 		 System.out.println(str +  "치킨은 없는 메뉴입니다");
+		 * }
+		 */
+		
 	
 	
 	}
@@ -205,6 +254,8 @@ public class ArrayPractice {
 		System.out.print("주민등록번호(-포함) : ");
 		String num = sc.nextLine();
 		char[] reg = new char[num.length()];
+	
+		/* 내가한 코드 // 잘못한듯
 		char[] copy = reg.clone();
 		
 		for(int i=0; i<8; i++) {
@@ -218,7 +269,27 @@ public class ArrayPractice {
 			
 			System.out.print(copy[i]);
 		}
+		*/
+		// 반복문을이용하여 char 를 옮겨담기
+		for(int i = 0; i<reg.length; i++) {
+			reg[i] = num.charAt(i);
+		}
+		//복사본 만들고 성별 이후자리에 * 복사
 		
+		char[] copy = new char[reg.length];
+		
+		for(int i = 0; i<copy.length; i++) {
+			if(i<8) {
+				copy[i] = reg[i]; //8전까지는 copyi 랑 reg i 랑 같아요
+			} else {
+				copy[i] = '*'; //그 이후는 별입니다.
+			}
+		}
+		
+		// 후 출력
+		for(int i=0; i<copy.length; i++) {
+			System.out.print(copy[i]);
+		}
 		
 
 		
