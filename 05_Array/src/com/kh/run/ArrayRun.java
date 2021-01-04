@@ -2,6 +2,7 @@ package com.kh.run;
 
 import com.kh.array.A_Array;
 import com.kh.array.B_ArrayCopy;
+import com.kh.array.C_DimensionalArray;
 
 public class ArrayRun {
 	public static void main(String[] args) {
@@ -17,8 +18,16 @@ public class ArrayRun {
 		//a.method10();
 	
 		B_ArrayCopy b = new B_ArrayCopy();
-		b.method2();
+		//b.method2();
 		//b.method5();
+		
+		C_DimensionalArray c = new C_DimensionalArray();
+		//c.method1();
+		//c.method2();
+		//c.method3();
+		//c.method4();
+		//c.method5();
+		c.method6();
 		
 	}
 
