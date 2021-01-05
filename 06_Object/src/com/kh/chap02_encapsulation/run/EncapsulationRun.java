@@ -22,6 +22,7 @@ public class EncapsulationRun {
 	  	
 	 */
 	
+	
 	public static void main(String[] args) {
 		
 		Student hong = new Student();
