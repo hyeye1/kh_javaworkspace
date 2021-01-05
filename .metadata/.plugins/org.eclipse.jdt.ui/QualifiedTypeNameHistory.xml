@@ -9,4 +9,7 @@
 <fullyQualifiedTypeName name="com.kh.array.C_DimensionalArray"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.kh.chap01_Abstraction.model.vo.Student"/>
+<fullyQualifiedTypeName name="com.kh.chap02_encapsulation.model.vo.Student"/>
+<fullyQualifiedTypeName name="com.kh.chap03_class.model.vo.Person"/>
+<fullyQualifiedTypeName name="com.kh.chap03_class.model.vo.Product"/>
 </qualifiedTypeNameHistroy>
