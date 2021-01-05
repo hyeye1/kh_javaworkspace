@@ -139,6 +139,41 @@ public class ArrayPractice {
 		while(true) {
 			System.out.print("정수 : ");
 			int num = sc.nextInt();
+		
+			if(num>=3 & num%2 ==1) {
+				//1. 사용자가 입력한 정수크기만큼의 배열 생성
+				int[] arr = new int[num];
+				
+				//2. 배열 값담기
+				int value = 1;
+				for(int i = 0; i<arr.length; i++) {
+				
+					if(i<arr.length/2) {
+						arr[i] = value++;
+					}else {
+						arr[i] = value--;
+					}
+					
+				}
+				//3. 배열 값 출력하기
+				for(int i = 0; i<arr.length; i++) {
+					if(i!=arr.length-1) {
+						System.out.print(arr[i]+", ");
+					} else {
+						System.out.print(arr[i]);
+					}
+				}
+				break;
+			}else {
+				System.out.println("다시입력하세요");
+			}		
+		}				
+}
+		
+		/*
+		while(true) {
+			System.out.print("정수 : ");
+			int num = sc.nextInt();
 			
 			if(num>3 && (num%2 == 1)) {
 				int[] arr = new int[num];
@@ -155,7 +190,8 @@ public class ArrayPractice {
 					System.out.print(arr[i]+ " ");
 					
 				}
-				//강사님이 하신 코드
+	
+		//강사님이 하신 코드
 				/*
 				 * int count = 1;  값을 넣기위한 변수를 만들고, 
 				 * 
@@ -179,17 +215,49 @@ public class ArrayPractice {
 				 *			System.out.println(arr[i]);
 				 *		}
 				 * 
-				 */
+				 
 				break;
 			}else {
 				System.out.println("다시 입력하세요.");
 			}
 		}
 	}
+	*/
 	
 	
 	public void practice9() {
+		//메뉴 할당 초기화
+		String[] chicken = {"후라이드", "양념", "파닭", "치즈"};
+		//사용자에게 치킨메뉴 입력받기
 		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("치킨 이름을 입력하세요: ");
+		String menu = sc.nextLine();
+		
+		boolean flag = false; //변수를 아무거나 만들기 (int/double/boolean)
+		
+		for(int i=0; i<chicken.length; i++) {
+			if(menu.equals(chicken[i])) { //일치하는 순간 세팅한 변수값을 변화시켜주기
+				flag = true;
+			}
+		}
+		
+		if(flag) {
+			System.out.println(menu+"치킨 배달 가능");
+		}else {
+			System.out.println(menu+"치킨은 없는 메뉴입니다");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+/*		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("치킨 이름을 입력하세요: ");
 		String str = sc.nextLine();
