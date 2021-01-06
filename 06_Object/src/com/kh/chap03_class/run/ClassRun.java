@@ -31,17 +31,38 @@ public class ClassRun {
 		//   pname 필드에는 갤럭시 담기
 		//   price 필드에는 1300000 
 		//   brand 필드에는 "샘송"
-		Product pd = new Product();
+		Product p1 = new Product();
 		
-		pd.setpName("갤럭시");
-		pd.setPrice(1300000);
-		pd.setBrand("샘송");
+		p1.setpName("갤럭시");
+		p1.setPrice(1300000);
+		p1.setBrand("샘송");
 		
-		System.out.println(pd.getBrand()+"제품의 "+pd.getpName()+"는 "+pd.getPrice()+"원 입니다.");
-		System.out.println(pd.getpName());
-		System.out.println(pd.getPrice());
-		System.out.println(pd.getBrand());
+		System.out.println(p1.getBrand()+"제품의 "+p1.getpName()+"는 "+p1.getPrice()+"원 입니다.");
+		System.out.println(p1.getpName());
+		System.out.println(p1.getPrice());
+		System.out.println(p1.getBrand());
+		
+		
+		Product p2 = new Product();
+		
+		p2.setpName("아이폰");
+		p2.setPrice(1500000);
+		p2.setBrand("사과");
+		
+		//사과제품은 얼마입니당
+		System.out.printf("%s제품의 %s은 %d입니다.", p2.getBrand(), p2.getpName(), p2.getPrice());
 		
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
