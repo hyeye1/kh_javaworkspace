@@ -2,14 +2,16 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.kh.array.A_Array"/>
 <fullyQualifiedTypeName name="com.kh.array.B_ArrayCopy"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.kh.array.practice.example.ArrayPractice"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.kh.array.practice.example.ArrayPracticeAnswer"/>
 <fullyQualifiedTypeName name="com.kh.array.C_DimensionalArray"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.kh.chap01_Abstraction.model.vo.Student"/>
 <fullyQualifiedTypeName name="com.kh.chap02_encapsulation.model.vo.Student"/>
 <fullyQualifiedTypeName name="com.kh.chap03_class.model.vo.Person"/>
 <fullyQualifiedTypeName name="com.kh.chap03_class.model.vo.Product"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.kh.example.model.vo.Student"/>
+<fullyQualifiedTypeName name="com.kh.example.model.vo.Dog"/>
 </qualifiedTypeNameHistroy>
