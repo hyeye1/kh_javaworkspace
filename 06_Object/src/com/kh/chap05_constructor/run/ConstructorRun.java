@@ -18,6 +18,15 @@ public class ConstructorRun {
 		
 		System.out.println(u1.information());
 		
+		// 2. 매개변수 생성자로 객체 생성과 동시에 각 필드에 값담기
+		User u2 = new User("user02", "pass02", "홍길동");
+		
+		System.out.println(u2.information());
+		
+		// 3. 매개변수 5개 자리 생성자로 객체 생성과 동시에 각 필드에 값담기
+		User u3 = new User("user03", "pass03", "강개순", 19, 'F');
+		
+		System.out.println(u3.information());
 		
 	}
 							

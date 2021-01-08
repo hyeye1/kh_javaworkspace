@@ -10,7 +10,19 @@ public class Person {
 	private String email;
 	
 	// 생성자부
+	// 기본생성자 + 모든 필드값을 초기화 시켜주는 매개변수 5개짜리생성ㅈ
 	
+	public Person() {
+		
+	}
+	
+	public Person(String name, int age, char gender, String phone, String email) {
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+		this.phone = phone;
+		this.email = email;
+	}
 	
 	// 메소드부
 	// * setter메소드 ( 전달값 받아서 각 필드에 대입 시켜주는) 
@@ -55,5 +67,9 @@ public class Person {
 	
 	public String getEmail() {
 		return email;
+	}
+	
+	public String information() {
+		return "name: " + name + " age: " + age + " gender: " + gender + " phone: " + phone + " email: " + email;
 	}
 }

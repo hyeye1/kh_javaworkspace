@@ -12,6 +12,7 @@ public class ClassRun {
 		// Person이라는 클래스로 위의 모든 값들을 보관할 수 있는 사용자 정의 자료형(나만의 자료형 == 여러개의 자료형의 여러개의 값들을 보관할 수 있는) 만들고 오자!
 		
 		//person p => name: null / age: 0/ gender:' '/ phone: null/ email: null
+		/*
 		Person p = new Person();
 		
 		p.setName("김말순");
@@ -23,8 +24,11 @@ public class ClassRun {
 		System.out.println(p.getName());
 		System.out.println(p.getGender());
 		System.out.println(p.getEmail());
+		*/
 		
+		Person p = new Person("김말순", 34, 'F', "010-1111-2222", "malsoon@gmail.com");
 		
+		System.out.println(p.information());
 		//1. product 객체 생성
 		
 		//2. setter 메소드를 통해 
