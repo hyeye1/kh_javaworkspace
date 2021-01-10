@@ -33,10 +33,12 @@ public class User {
 	public User() {//우리가 직접 작성하지않으면 JVM이 알아서 생성해줌
 		// 기본생성자 (매개변수 없는 생성자)
 		// 단지 객체 생성만을 목적으로 할 때 사용
-		// 기본생성자를 생략하는 경우 => 오류? => x
+		// 기본생성자를 생략하는 경우 => 오류?  x
 		//						    => jvm이 자동으로 만들어줌 
 		
 	}
+	
+	
 	public User(String userId, String userPwd, String userName) {
 		this.userId = userId;
 		this.userPwd = userPwd;
@@ -52,7 +54,7 @@ public class User {
 		this.gender = gender;
 	}
 
-	
+	// 메소드부 
 	// 전달값 받아서 각 필드에 대입시켜주는 setter메소드 5개 (2)
 	public void setUserId(String userId) {
 		this.userId = userId;
