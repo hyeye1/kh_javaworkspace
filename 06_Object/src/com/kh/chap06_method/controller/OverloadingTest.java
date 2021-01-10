@@ -9,7 +9,7 @@ public class OverloadingTest {
 	}
 	
 	public void test(int a) {
-		
+		// 매개변수
 	}
 	
 	public void test(int a, String s) {
