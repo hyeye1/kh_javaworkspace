@@ -26,7 +26,7 @@ public class Point {
 	}
 	
 	public void draw() {
-	
+		System.out.printf("(x, y) : (%d, %d)",getX(), getY());
 	}
 
 }

@@ -17,9 +17,7 @@
 <fullyQualifiedTypeName name="com.hw2.model.vo.Book"/>
 <fullyQualifiedTypeName name="com.kh.chap01.objectVSobjectArray.model.vo.Book"/>
 <fullyQualifiedTypeName name="com.kh.chap02.objectArray.model.vo.Phone"/>
-<fullyQualifiedTypeName name="com.hw1.model.vo.Employee"/>
 <fullyQualifiedTypeName name="com.hw2.model.vo.Student"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.before.model.vo.Desktop"/>
 <fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.before.model.vo.Tv"/>
 <fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.before.model.vo.SmartPhone"/>
@@ -29,4 +27,14 @@
 <fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Car"/>
 <fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Ship"/>
 <fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Airplane"/>
+<fullyQualifiedTypeName name="com.kh.chap03_override.model.vo.Book"/>
+<fullyQualifiedTypeName name="com.hw1.model.vo.Student"/>
+<fullyQualifiedTypeName name="com.hw1.model.vo.Employee"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.kh.chap01_poly.part01_basic.model.vo.Parent"/>
+<fullyQualifiedTypeName name="com.kh.chap01_poly.part01_basic.model.vo.Child1"/>
+<fullyQualifiedTypeName name="com.kh.chap01_poly.part01_basic.model.vo.Child2"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="com.hw2.model.vo.Circle"/>
+<fullyQualifiedTypeName name="com.hw2.model.vo.Rectangle"/>
 </qualifiedTypeNameHistroy>
