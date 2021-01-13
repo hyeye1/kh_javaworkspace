@@ -19,10 +19,12 @@ public class Car extends Vehicle {
 		return tire;
 	}
 	
-	public String information() {
-		return super.information() + ", tire: " + tire;
+	@Override
+	public String toString() {
+		return super.toString() + ", tire: " + tire;
 	}
 	
+	@Override
 	public void howToMove() {
 		System.out.println("바퀴가 굴러가면서 움직인다");
 	}

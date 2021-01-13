@@ -20,4 +20,13 @@
 <fullyQualifiedTypeName name="com.hw1.model.vo.Employee"/>
 <fullyQualifiedTypeName name="com.hw2.model.vo.Student"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.before.model.vo.Desktop"/>
+<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.before.model.vo.Tv"/>
+<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.before.model.vo.SmartPhone"/>
+<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.model.vo.Desktop"/>
+<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.model.vo.SmartPhone"/>
+<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.model.vo.Tv"/>
+<fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Car"/>
+<fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Ship"/>
+<fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Airplane"/>
 </qualifiedTypeNameHistroy>

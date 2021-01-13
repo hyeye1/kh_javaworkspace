@@ -12,9 +12,13 @@ public class Run {
 		Ship s = new Ship("낚시배", 0.1, "어선", 1);
 		Airplane a = new Airplane("비행기", 0.021, "제트기", 16, 4);
 		
-		System.out.println(c.information());
-		System.out.println(s.information());
-		System.out.println(a.information());
+		//System.out.println(c.information());
+		//System.out.println(s.information());
+		//System.out.println(a.information());
+		
+		System.out.println(c);
+		System.out.println(s);
+		System.out.println(a); // toString을 사용하면 바로 호출가능
 		
 		c.howToMove();
 		s.howToMove();

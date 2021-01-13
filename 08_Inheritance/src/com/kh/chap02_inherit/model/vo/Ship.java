@@ -19,8 +19,9 @@ public class Ship extends Vehicle{
 		return propeller;
 	}
 	
-	public String information() {
-		return super.information() + ", propelloer: " + propeller;
+	@Override
+	public String toString() {
+		return super.toString() + ", propelloer: " + propeller;
 	}
 	
 	public void howToMove() {

@@ -34,9 +34,11 @@ public class Vehicle {
 		return kind;
 	}
 	
-	public String information() {
+	@Override
+	public String toString() {
 		return "name: " + name + ", mileage: " + mileage + ", kind: " + kind;
 	}
+	
 	
 	public void howToMove() {
 		System.out.println("Just move .. somehow...");
