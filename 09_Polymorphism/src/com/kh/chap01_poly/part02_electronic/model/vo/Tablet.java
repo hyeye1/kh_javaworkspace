@@ -13,13 +13,13 @@ public class Tablet extends Electronic{
 		this.penFlag = penFlag;
 	}
 	
-	public boolean getPenFlag() {
+	public boolean isPenFlag() {     // boolean자료형에는 get이아니라 is로 작성
 		return penFlag;
 	}
 	
 	@Override
 	public String toString() {
-		return super.toString() +", penFlag: " + penFlag;
+		return super.toString() +", penFlag: " + (penFlag? "있음" : "없음"); //삼항연산자: 간단한 조건식 가능  (조건식? 참일경우 : 거짓일경우)
 	}
 	
 

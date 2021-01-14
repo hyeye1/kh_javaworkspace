@@ -24,9 +24,6 @@
 <fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.model.vo.Desktop"/>
 <fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.model.vo.SmartPhone"/>
 <fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.model.vo.Tv"/>
-<fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Car"/>
-<fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Ship"/>
-<fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Airplane"/>
 <fullyQualifiedTypeName name="com.kh.chap03_override.model.vo.Book"/>
 <fullyQualifiedTypeName name="com.hw1.model.vo.Student"/>
 <fullyQualifiedTypeName name="com.hw1.model.vo.Employee"/>
@@ -37,4 +34,20 @@
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="com.hw2.model.vo.Circle"/>
 <fullyQualifiedTypeName name="com.hw2.model.vo.Rectangle"/>
+<fullyQualifiedTypeName name="com.kh.chap01_poly.part02_electronic.controller.ElectronicController1"/>
+<fullyQualifiedTypeName name="com.kh.chap01_poly.part02_electronic.model.vo.Desktop"/>
+<fullyQualifiedTypeName name="com.kh.chap01_poly.part02_electronic.model.vo.NoteBook"/>
+<fullyQualifiedTypeName name="com.kh.chap01_poly.part02_electronic.model.vo.Tablet"/>
+<fullyQualifiedTypeName name="com.kh.chap01_poly.part02_electronic.controller.ElectronicController2"/>
+<fullyQualifiedTypeName name="com.kh.chap01_poly.part02_electronic.model.vo.Electronic"/>
+<fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Ship"/>
+<fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Car"/>
+<fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Airplane"/>
+<fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Vehicle"/>
+<fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.par01_basic.model.vo.Football"/>
+<fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.par01_basic.model.vo.Basketball"/>
+<fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part02_family.model.vo.Person"/>
+<fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part02_family.model.vo.Mother"/>
+<fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part02_family.model.vo.Baby"/>
+<fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part02_family.model.vo.Basic"/>
 </qualifiedTypeNameHistroy>

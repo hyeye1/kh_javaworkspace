@@ -34,6 +34,7 @@ public class Electronic {
 		return price;
 	}
 	
+	@Override
 	public String toString() {
 		return "brand: "+ brand +", name: " + name +", price: " + price;
 	}

@@ -1,7 +1,7 @@
 package com.kh.chap01_poly.part02_electronic.model.vo;
 
 public class Desktop extends Electronic {
-	public String SPU = "intel";
+	public static final String CPU = "intel"; // 상수필드, setter getter 필요없음 
 	private String graphic; 
 	
 	public Desktop() {}
@@ -20,7 +20,7 @@ public class Desktop extends Electronic {
 	
 	@Override
 	public String toString() {
-		return super.toString() + ", graphic: " + graphic;
+		return super.toString() + ", cpu: " + CPU + ", graphic: " + graphic;
 	}
 	
 

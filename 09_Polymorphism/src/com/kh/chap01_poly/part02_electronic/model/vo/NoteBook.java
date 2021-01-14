@@ -17,6 +17,7 @@ public class NoteBook extends Electronic{
 		return usbPort;
 	}
 	
+	@Override
 	public String toString() {
 		return super.toString() + ", usbPort: " + usbPort;
 	}
