@@ -28,3 +28,4 @@ public class Ship extends Vehicle{
 		System.out.println("프로펠러를 돌려가면서 움직인다");
 	}
 }
+ 

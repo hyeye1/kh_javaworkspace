@@ -27,7 +27,7 @@ public class Vehicle {
 		return mileage;
 	}
 	
-	public void setKind(String kind) {
+	public void setKind(String kind) { 
 		this.kind = kind;
 	}
 	public String getKind() {

@@ -15,7 +15,7 @@ public class RunWithPoly {
 		rc.insert(new Car("Æ÷¸£½¦", 3.4, "½ºÆ÷Ã÷Ä«",4),0);
 
 		
-		
+		 
 		
 	}
 

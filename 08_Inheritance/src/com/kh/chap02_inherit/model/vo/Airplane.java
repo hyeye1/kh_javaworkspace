@@ -37,4 +37,4 @@ public class Airplane extends Vehicle {
 		System.out.println("바퀴로 가다가 날개로 난다");
 	}
 
-}
+} 

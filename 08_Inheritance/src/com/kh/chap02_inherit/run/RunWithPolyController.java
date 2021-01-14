@@ -12,7 +12,7 @@ public class RunWithPolyController {
 	
 	public Vehicle select(int index) {
 		return v[index];
-	}
+	} 
 	
 	
 	

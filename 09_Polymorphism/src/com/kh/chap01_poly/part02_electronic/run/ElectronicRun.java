@@ -17,7 +17,7 @@ public class ElectronicRun {
 		
 		/*
 		// 1. 다형성 적용 안했을 경우(ElectronicController1)
-		ElectronicController1 ec = new ElectronicController1();
+		ElectronicController1 ec = new ElectronicController1(); 
 		// 생성하는 순간 이 클래스의 필드들이 메모리 영역에 올라감!
 		
 		ec.insert(new Desktop("Samsung", "데탑", 1200000, "Geforce 1070"));
