@@ -1,6 +1,7 @@
 package com.kh.chap02_abstractAndInterface.part02_family.model.vo;
 
 public class Mother extends Person implements Basic {
+	//인터페이스 클래스는 상속받는다는 표현보단 '구현' 이라는 표현을 사용한다. 
 	
 	private String babyBirth; // 아기의 탄생: 출산, 입양, 없음
 	

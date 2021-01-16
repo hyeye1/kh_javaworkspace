@@ -12,6 +12,7 @@ public class ElectronicController2 {
 		elec[index] = any; 
 	}
 	
+	//반환형도 부모타입 레퍼런스사용 => 따로담을 필요없고 한번에 담아짐
 	public Electronic select(int index) { //조회하고자하는 인덱스값을 돌려주기 -> 매개변수에 입력
 		return elec[index];
 	}

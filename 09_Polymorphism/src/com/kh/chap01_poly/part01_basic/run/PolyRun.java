@@ -71,6 +71,7 @@ public class PolyRun {
 		((Child2)arr[1]).printChild2();
 		((Child2)arr[2]).printChild2();
 		((Child1)arr[3]).printChild1();
+		//((Child2)arr[0]).printChild2(); //형변환오류
 		
 		System.out.println("====== 반복문 이용해서 해보기 ======");
 		for(int i=0; i<arr.length; i++) {
@@ -81,7 +82,8 @@ public class PolyRun {
 			//}else {
 			//	((Child2)arr[i]).printChild2();
 			//		}
-		arr[i].print();
+		
+			arr[i].print();
 		// 단, 오버라이딩개념을 접목하면 보다 쉽게 실행가능함
 		// 실질적으로 참조하고 있는 자식 클래스의 오버라이딩 된 메소드 찾아가서 알아서 실행된다
 		

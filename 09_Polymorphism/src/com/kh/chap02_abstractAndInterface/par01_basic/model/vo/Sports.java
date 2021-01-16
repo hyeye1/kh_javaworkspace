@@ -1,6 +1,6 @@
 package com.kh.chap02_abstractAndInterface.par01_basic.model.vo;
 
-public abstract class Sports {
+public abstract class Sports {//추상클래스 abstract작성
 	
 	private int people; // 스포츠에 참여하는 선수 명수
 	
@@ -34,7 +34,9 @@ public abstract class Sports {
 	 * 
 	 */
 	public abstract void rule(); //_> 대괄호가없는 미완성메소드 : 추상메소드
-	//추상메소드(미완성메소드)를 완료하고싶으면 접근제한자와 반환형 사이에 abstract라는 키워드 작성해야함
+	//추상메소드(미완성메소드)를 완료하고싶으면 접근제한자와 반환형 사이에 abstract라는 예약어 작성해야함
+	
+	// 이 클래스에 추상메소드가 존재한다? => 클래스도 추상클래스
 	
 	
 

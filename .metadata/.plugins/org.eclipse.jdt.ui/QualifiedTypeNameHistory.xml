@@ -9,7 +9,6 @@
 <fullyQualifiedTypeName name="com.kh.chap01_Abstraction.model.vo.Student"/>
 <fullyQualifiedTypeName name="com.kh.chap02_encapsulation.model.vo.Student"/>
 <fullyQualifiedTypeName name="com.kh.chap03_class.model.vo.Person"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.kh.example.model.vo.Student"/>
 <fullyQualifiedTypeName name="com.kh.example.model.vo.Dog"/>
 <fullyQualifiedTypeName name="com.kh.chap03_class.model.vo.Product"/>
@@ -27,7 +26,6 @@
 <fullyQualifiedTypeName name="com.kh.chap03_override.model.vo.Book"/>
 <fullyQualifiedTypeName name="com.hw1.model.vo.Student"/>
 <fullyQualifiedTypeName name="com.hw1.model.vo.Employee"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.kh.chap01_poly.part01_basic.model.vo.Parent"/>
 <fullyQualifiedTypeName name="com.kh.chap01_poly.part01_basic.model.vo.Child1"/>
 <fullyQualifiedTypeName name="com.kh.chap01_poly.part01_basic.model.vo.Child2"/>
@@ -50,4 +48,12 @@
 <fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part02_family.model.vo.Mother"/>
 <fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part02_family.model.vo.Baby"/>
 <fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part02_family.model.vo.Basic"/>
+<fullyQualifiedTypeName name="com.kh.chap02_string.controller.B_StringMethodTest"/>
+<fullyQualifiedTypeName name="com.kh.chap02_string.controller.A_StringPoolTest"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.kh.chap02_string.controller.C_StringTokenizerTest"/>
+<fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 </qualifiedTypeNameHistroy>

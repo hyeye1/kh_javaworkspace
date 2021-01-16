@@ -12,7 +12,7 @@ public class BasicRun {
 		// 추상 클래스로 생성 불가! (왜? 미완성된 클래스이기 때문에)
 		
 		//Sports s; 단 객체생성만 안될뿐이지 레퍼런지 변수로는 사용가능
-		/*1.*/Sports s = new Football();
+		/*1.*/Sports s = new Football(); // 다형성을 적용해서 자식객체를 받아주는 용도로 사용
 		
 		/*2.*/Sports[] arr = new Sports[2];
 		arr[0] = new Basketball();
