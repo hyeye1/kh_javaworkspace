@@ -28,7 +28,7 @@ public class DateRun {
 		
 		// " 2020 년 06월 19일 19시 15분 30초"
 		// 내 입맛대로 형식을 지정한 문자열을 받고자할때
-		// java.text.SimpleDateFormat
+		// java.text.SimpleDateFormat 
 		
 		//1. 형식을 지정하면서 SimpleDateFormat 객체생성
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy년 MM월 dd일 hh시 mm분 ss초");
