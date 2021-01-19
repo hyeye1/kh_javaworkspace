@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.kh.array.A_Array"/>
-<fullyQualifiedTypeName name="com.kh.array.B_ArrayCopy"/>
-<fullyQualifiedTypeName name="com.kh.array.practice.example.ArrayPractice"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.kh.array.practice.example.ArrayPracticeAnswer"/>
 <fullyQualifiedTypeName name="com.kh.array.C_DimensionalArray"/>
@@ -50,10 +47,17 @@
 <fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part02_family.model.vo.Basic"/>
 <fullyQualifiedTypeName name="com.kh.chap02_string.controller.B_StringMethodTest"/>
 <fullyQualifiedTypeName name="com.kh.chap02_string.controller.A_StringPoolTest"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.kh.chap02_string.controller.C_StringTokenizerTest"/>
 <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.kh.exception.UnCheckedException"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="com.kh.exception.CheckedException"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>
