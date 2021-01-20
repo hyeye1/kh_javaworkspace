@@ -24,7 +24,7 @@ public class ByteRun {
 		FileByteDao fb = new FileByteDao();
 		//fb.fileSave();
 		fb.fileRead();
-		
+		 
 	}
 
 }
