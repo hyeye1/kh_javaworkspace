@@ -48,7 +48,7 @@ public class CheckedException {
 	
 	/*
 	 * 
-	 * 							예외발생 시점				   	예외처리
+	 * 							예외발생 시점				예외처리
 	 * RuntimeException			런타임 에러(컴파일에러x)		세모		=> 개발자 케바케(조건문/예외처리) unCheckedException
 	 * RuntimeException외 		컴파일 에러 					필수		=> 반드시 예외처리				CheckedException
 	 * 

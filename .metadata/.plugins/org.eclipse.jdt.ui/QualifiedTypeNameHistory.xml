@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="com.kh.array.practice.example.ArrayPracticeAnswer"/>
-<fullyQualifiedTypeName name="com.kh.array.C_DimensionalArray"/>
-<fullyQualifiedTypeName name="com.kh.chap01_Abstraction.model.vo.Student"/>
-<fullyQualifiedTypeName name="com.kh.chap02_encapsulation.model.vo.Student"/>
-<fullyQualifiedTypeName name="com.kh.chap03_class.model.vo.Person"/>
-<fullyQualifiedTypeName name="com.kh.example.model.vo.Student"/>
-<fullyQualifiedTypeName name="com.kh.example.model.vo.Dog"/>
-<fullyQualifiedTypeName name="com.kh.chap03_class.model.vo.Product"/>
-<fullyQualifiedTypeName name="com.hw1.model.vo.Product"/>
-<fullyQualifiedTypeName name="com.hw2.model.vo.Book"/>
-<fullyQualifiedTypeName name="com.kh.chap01.objectVSobjectArray.model.vo.Book"/>
-<fullyQualifiedTypeName name="com.kh.chap02.objectArray.model.vo.Phone"/>
-<fullyQualifiedTypeName name="com.hw2.model.vo.Student"/>
-<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.before.model.vo.Desktop"/>
-<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.before.model.vo.Tv"/>
-<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.before.model.vo.SmartPhone"/>
-<fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.model.vo.Desktop"/>
 <fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.model.vo.SmartPhone"/>
 <fullyQualifiedTypeName name="com.kh.chap01_beforeVSafter.after.model.vo.Tv"/>
 <fullyQualifiedTypeName name="com.kh.chap03_override.model.vo.Book"/>
@@ -55,9 +37,27 @@
 <fullyQualifiedTypeName name="com.kh.exception.UnCheckedException"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="com.kh.exception.CheckedException"/>
 <fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.kh.chap02_byte.model.dao.FileByteDao"/>
+<fullyQualifiedTypeName name="com.kh.chap03_char.model.dao.FileCharDao"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="com.kh.chap04_assist.part01_buffered.model.dao.BufferedDao"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="com.kh.chap04_assist.part02_object.model.dao.ObjectDao"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="com.kh.chap04_assist.part02_object.model.vo.Phone"/>
+<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="com.kh.chap04_assist.part02_object.model.dao.ObjectsDao"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.EOFException"/>
+<fullyQualifiedTypeName name="com.kh.chap01_list.part01_basic.model.vo.Music"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

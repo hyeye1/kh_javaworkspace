@@ -2,7 +2,7 @@ package com.kh.chap04_assist.part02_object.model.vo;
 
 import java.io.Serializable;
 
-public class Phone implements Serializable{
+public class Phone implements Serializable{ //직렬화 선언
 	
 	private String brand;
 	private int price;
