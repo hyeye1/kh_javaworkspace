@@ -1,6 +1,7 @@
 package com.kh.chap01_list.part01_basic.run;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import com.kh.chap01_list.part01_basic.model.vo.Music;
 
@@ -122,6 +123,22 @@ public class BasicRun {
 		System.out.println(m);
 		
 		System.out.println(list.get(0));
+		list.get(0).getTitle();
+		
+		//7. subList(int index1, int index2) : 해당 인덱스에서부터 다음인덱스이전까지를 추출해서 새로운 List로 반환해줌
+		List<Music> sub = list.subList(0, 1);  // java.util에있는 List를 import해주기
+		System.out.println(sub);
+		
+		// 8. addAll(Collection c) 컬렉션을 통째로 뒤에 추가해주는 메소드
+		list.addAll(sub);
+		System.out.println(list);
+		
+		// 9. clear(); 컬렉션 비워주는 메소드
+		list.clear();
+		System.out.println(list);
+		
+		// 10. isEmpty(); 해당 컬렉션이 비어있는지 묻는 메소드
+		System.out.println(list.isEmpty());
 		
 		System.out.println("=====================");
 		
