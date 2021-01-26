@@ -52,7 +52,7 @@ public class PropertiesTest1 {
 			prop.store(new FileOutputStream("test.properties"), "Properties Test");
 
 			//4. storeToXML(OutputStream os, String comments) : Prop
-			prop.storetoXML(new FileOutputStream("test.xml"));
+			//prop.storetoXML(new FileOutputStream("test.xml"));
 		
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

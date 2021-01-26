@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.kh.chap01_poly.part02_electronic.controller.ElectronicController2"/>
-<fullyQualifiedTypeName name="com.kh.chap01_poly.part02_electronic.model.vo.Electronic"/>
-<fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Ship"/>
-<fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Car"/>
-<fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Airplane"/>
-<fullyQualifiedTypeName name="com.kh.chap02_inherit.model.vo.Vehicle"/>
-<fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.par01_basic.model.vo.Football"/>
-<fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.par01_basic.model.vo.Basketball"/>
-<fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part02_family.model.vo.Person"/>
-<fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part02_family.model.vo.Mother"/>
-<fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part02_family.model.vo.Baby"/>
-<fullyQualifiedTypeName name="com.kh.chap02_abstractAndInterface.part02_family.model.vo.Basic"/>
 <fullyQualifiedTypeName name="com.kh.chap02_string.controller.B_StringMethodTest"/>
 <fullyQualifiedTypeName name="com.kh.chap02_string.controller.A_StringPoolTest"/>
 <fullyQualifiedTypeName name="com.kh.chap02_string.controller.C_StringTokenizerTest"/>
@@ -60,4 +48,16 @@
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="com.kh.chap01_frame.view.MainFrame1"/>
+<fullyQualifiedTypeName name="com.kh.chap01_frame.view.MainFrame2"/>
+<fullyQualifiedTypeName name="com.kh.chap01_frame.view.MainFrame3"/>
+<fullyQualifiedTypeName name="javax.swing.JPasswordField"/>
+<fullyQualifiedTypeName name="javax.swing.JTextArea"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="com.kh.chap03_event.view.MainFrame"/>
+<fullyQualifiedTypeName name="javax.swing.JPanel"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 </qualifiedTypeNameHistroy>
