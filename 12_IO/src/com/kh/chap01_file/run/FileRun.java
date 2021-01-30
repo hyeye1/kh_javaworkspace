@@ -28,6 +28,7 @@ public class FileRun {
 			testFile.createNewFile();
 			
 			
+			
 			//4. 별도의 경로지정없이 폴더 생성후 파일 생성하기(프로젝트폴더 내에 생성됨)
 			File folder = new File("test");
 			folder.mkdir();

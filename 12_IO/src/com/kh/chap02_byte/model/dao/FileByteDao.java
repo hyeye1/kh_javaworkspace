@@ -48,7 +48,7 @@ public class FileByteDao {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
-// 중간에 예외가 발생하는 순간 catch구문으로 넘어가고 그럼 그사이의 코드는 실행되지않는다.	
+					// 중간에 예외가 발생하는 순간 catch구문으로 넘어가고 그럼 그사이의 코드는 실행되지않는다.	
 		} finally { // 그래서 쓰는 것이 finally
 			
 				try {
