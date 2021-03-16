@@ -24,7 +24,7 @@ public class MainFrame1 {
 		mainFrame.setVisible(true); // 창이 보여지게끔 하는 메소드
 		mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // 닫기 버튼을 클릭했을때 완벽하게 프로세스까지 종료되게
 		
-	}
+	} 
 
 }
  
