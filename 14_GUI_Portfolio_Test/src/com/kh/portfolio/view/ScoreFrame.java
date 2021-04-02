@@ -34,7 +34,7 @@ public class ScoreFrame extends javax.swing.JFrame {
 		btnPanel.add(valueBtn);
 		
 		inputPanel.add(btnPanel);
-		 
+		  
 		JTextField sum = new JTextField(10);
 		resultPanel.add(new JLabel("รัมก : "));
 		resultPanel.add(sum);
